@@ -1,0 +1,24 @@
+// mouse handlers
+
+
+let isDragging = false, startX, startScrollLeft;
+
+galleryContainer.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  startX = e.pageX;
+  startScrollLeft = galleryContainer.scrollLeft;
+});
+galleryContainer.addEventListener("mouseup", () => {
+  isDragging = false;
+  galleryContainer.classList.remove("dragging");
+});
+galleryContainer.addEventListener("mouseleave", () => {
+  isDragging = false;
+});
+
+galleryContainer.addEventListener("mousemove", (e) => {
+  if (!isDragging) return;
+  galleryContainer.scrollLeft = startScrollLeft - (e.pageX - startX);
+  galleryContainer.classList.add("dragging");
+  console.log(e.pageX);
+});

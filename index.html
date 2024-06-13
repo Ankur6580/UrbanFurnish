@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UrbanFurnish</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <button type="button" onclick="moveToTop()" id="movetotopbtn"><i class="ri-arrow-up-circle-fill movetotop"></i></button>
+    <nav class="pagepadding font-dg">
+      <span id="page-logo" class="hover-pointer">
+        <div class="logo"><img src="/logo/Group 3.png" alt="page-logo" /></div>
+
+        <span>
+          <p>URBAN</p>
+        </span>
+        <span>
+          <p class="bold">FURNISH</p>
+        </span>
+      </span>
+      <ul class="nav-items">
+        <li class="active">Home</li>
+        <li>Products</li>
+        <li>Orders</li>
+        <li>Contact</li>
+      </ul>
+      <img class="menu_icon" src="/logo/menu_icon.svg" alt="menu_icon" />
+    </nav>
+    <!--  -->
+
+    <section class="hero pagepadding bg-lb">
+      <div class="hero-text">
+        <div>
+          <h1>Elevate Your Space with Timeless Elegance.</h1>
+          <p class="bold" style="padding-block: 0.5rem">
+            Come visit Our Online Furniture Emporium!
+          </p>
+          <p>
+            Discover one-of-a-kind finds that will transform any room. From
+            opulent dining sets to inviting sofas, discover the ideal balance of
+            style and comfort.
+          </p>
+        </div>
+        <button class="primary-button">Explore Now</button>
+      </div>
+
+      <div class="image">
+        <img
+          class="hero-cover-img"
+          src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="chair"
+        />
+      </div>
+    </section>
+
+    <section class="selections pagepadding">
+      <div class="text">
+        <h1>Explore Our Handpicked Selection</h1>
+        <p>
+          Discover one-of-a-kind finds that will transform any room. From
+          opulent dining sets to inviting sofas, discover the ideal balance of
+          style and comfort.
+        </p>
+      </div>
+      <div style="display: flex; flex-direction: column">
+        <div class="gallery">
+          <div class="card" id="card-1">
+            <div style="height: 85%">
+              <img
+                class="cover-img"
+                src="https://images.unsplash.com/flagged/photo-1573168710865-2e4c680d921a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="bed"
+              />
+            </div>
+            <p class="bold">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit Eius.
+            </p>
+          </div>
+          <div class="card" id="card-2">
+            <div style="height: 85%">
+              <img
+                class="cover-img"
+                src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="table"
+              />
+            </div>
+            <p class="bold">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+          </div>
+          <div class="card" id="card-3">
+            <div style="height: 85%">
+              <img
+                class="cover-img"
+                src="https://images.unsplash.com/photo-1611967164521-abae8fba4668?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sofa"
+              />
+            </div>
+            <p class="bold">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <button class="secondary-button">See More</button>
+      </div>
+    </section>
+
+    <section class="why-us pagepadding bg-lb font-og">
+      <h1
+        style="
+          text-align: center;
+          margin-block-end: 3rem;
+          font-size: 1.9rem;
+          color: #000;
+        "
+      >
+        Why URBANFURNISH ?
+      </h1>
+
+      <div class="container">
+        <div class="points cardbox" id="point-1">
+          <h3>Exceptional Quality</h3>
+          <p>
+            We meticulously select each piece in our collection, ensuring that
+            it meets our stringent standards for craftsmanship and durability.
+          </p>
+        </div>
+        <div class="points cardbox" id="point-2">
+          <h3>Stylish Selection</h3>
+          <p>
+            Our curated range features the latest trends in furniture design,
+            from sleek modern pieces to timeless classics, guaranteeing you'll
+            find something to elevate any space.
+          </p>
+        </div>
+        <div class="points cardbox" id="point-3">
+          <h3>Affordable Luxury</h3>
+          <p>
+            We believe that everyone deserves to live in a beautiful and
+            comfortable space, which is why we offer high-quality furniture at
+            competitive prices, making luxury accessible to all.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="collection">
+      <div class="text">
+        <h1>Explore Our Signature Collection</h1>
+        <p>
+          Discover one-of-a-kind finds that will transform any room. From
+          opulent dining sets to inviting sofas, discover the ideal balance of
+          style and comfort.
+        </p>
+      </div>
+
+      <div class="gallery-container">
+        <!-- inject images here -->
+
+        <!-- <div class="gallery-item">
+          <div class="gallery-img">
+            <img
+              src="#"
+              alt="Lorem"
+            />
+          </div>
+          <h3>lorem ipsum</h3>
+          <p>
+            lorem ipsum de saga hip tomha gilo berta jit so.
+          </p>
+        </div> -->
+      </div>
+    </section>
+    <!--  -->
+
+    <section class="footer pagepadding">
+      <div class="footer-wrapper">
+        <ul class="container bold">
+          <li>Lorem</li>
+          <li>Optio</li>
+          <li>Nemo</li>
+          <li>Numquam</li>
+          <li>Ullam</li>
+          <li>Molestiae</li>
+          <li>Magnam</li>
+          <li>Placeat</li>
+          <li>Nulla</li>
+          <li>Repudiandae</li>
+          <li>Nam</li>
+          <li>Nostrum</li>
+        </ul>
+        <div class="footer-box">
+          <div class="social">
+            <img src="/logo/insta.png" alt="" />
+            <img src="/logo/facebook.png" alt="" />
+            <img src="/logo/twitter.png" alt="" />
+          </div>
+          <div class="image">
+            <img src="/logo/QR code.png" alt="" />
+            <p class="bold">Get our App</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <script src="index.js"></script>
+  </body>
+</html>
